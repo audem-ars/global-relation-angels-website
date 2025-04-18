@@ -323,7 +323,7 @@ const JobSeekersPage = ({ testimonials, setActivePage }) => {
             
             {/* Right buttons */}
             <div className="lg:w-1/3 flex flex-col space-y-6">
-              <a onClick={() => setActivePage('jobSeekerEnquiry')}
+              <a onClick={(e) => setActivePage('jobSeekerEnquiry')}
                  style={{ 
                    background: 'linear-gradient(145deg, #1e40af 0%, #3b82f6 100%)',
                    borderRadius: '0.75rem',
@@ -353,7 +353,7 @@ const JobSeekersPage = ({ testimonials, setActivePage }) => {
                 </div>
               </a>
               
-              <a onClick={() => setActivePage('cvTips')} 
+              <a onClick={(e) => setActivePage('cvTips')} 
    style={{ 
      background: 'linear-gradient(145deg, #1e40af 0%, #3b82f6 100%)',
      borderRadius: '0.75rem',
@@ -383,7 +383,7 @@ const JobSeekersPage = ({ testimonials, setActivePage }) => {
   </div>
 </a>
               
-              <a onClick={() => setActivePage('interviewPreparation')} 
+              <a onClick={(e) => setActivePage('interviewPreparation')} 
    style={{ 
      background: 'linear-gradient(145deg, #1e40af 0%, #3b82f6 100%)',
      borderRadius: '0.75rem',
@@ -413,7 +413,7 @@ const JobSeekersPage = ({ testimonials, setActivePage }) => {
                 </div>
               </a>
               
-              <a onClick={() => setActivePage('currentJobs')} 
+              <a onClick={(e) => setActivePage('currentJobs')} 
    style={{ 
      background: 'linear-gradient(145deg, #1e40af 0%, #3b82f6 100%)',
      borderRadius: '0.75rem',

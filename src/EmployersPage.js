@@ -259,7 +259,7 @@ const EmployersPage = ({ testimonials, setActivePage }) => {
             
             {/* Right buttons */}
             <div className="lg:w-1/3 flex flex-col space-y-6">
-            <a onClick={() => setActivePage('employerEnquiry')}
+            <a onClick={(e) => setActivePage('employerEnquiry')}
    style={{ 
      background: 'linear-gradient(145deg, #1e40af 0%, #3b82f6 100%)',
      borderRadius: '0.75rem',
@@ -289,7 +289,7 @@ const EmployersPage = ({ testimonials, setActivePage }) => {
                 </div>
               </a>
               
-              <a onClick={() => setActivePage('permanentPlacement')}
+              <a onClick={(e) => setActivePage('permanentPlacement')}
                  style={{ 
                    background: 'linear-gradient(145deg, #1e40af 0%, #3b82f6 100%)',
                    borderRadius: '0.75rem',

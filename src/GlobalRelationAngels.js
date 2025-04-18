@@ -287,18 +287,18 @@ useEffect(() => {
           </div>
           <div className="hidden md:flex space-x-6">
           <button 
-  onClick={() => setActivePage('home')}
+  onClick={(e) => setActivePage('home')}
   className="text-gray-800 hover:text-blue-600 font-medium transition-colors"
 >
   Home
 </button>
             <button 
-  onClick={() => setActivePage('employers')}
+  onClick={(e) => setActivePage('employers')}
   className="text-gray-800 hover:text-blue-600 font-medium transition-colors"
 >
   Employers
 </button>
-<button onClick={() => setActivePage('jobSeekers')} className="text-gray-800 hover:text-blue-600 font-medium transition-colors">Job Seekers</button>
+<button onClick={(e) => setActivePage('jobSeekers')} className="text-gray-800 hover:text-blue-600 font-medium transition-colors">Job Seekers</button>
 <button 
   onClick={function() { setActivePage('hrServices'); }}
   className="text-gray-800 hover:text-blue-600 font-medium transition-colors"
