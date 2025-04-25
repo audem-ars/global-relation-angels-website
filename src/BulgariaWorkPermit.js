@@ -40,7 +40,7 @@ const BulgariaWorkPermit = () => {
             {/* Header Image */}
             <div className="relative h-96 overflow-hidden">
               <img 
-                src="/images/country-bg.jpg" 
+                src="/images/bulgaria.jpg" 
                 alt="Bulgaria cityscape" 
                 className="w-full h-full object-cover"
               />
