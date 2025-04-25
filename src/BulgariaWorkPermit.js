@@ -39,11 +39,7 @@ const BulgariaWorkPermit = () => {
           <div className="max-w-5xl mx-auto bg-white rounded-xl shadow-lg overflow-hidden">
             {/* Header Image */}
             <div className="relative h-96 overflow-hidden">
-              <img 
-                src="/images/bulgaria.jpg" 
-                alt="Bulgaria cityscape" 
-                className="w-full h-full object-cover"
-              />
+            <img src="/images/bulgaria.jpg" alt="Bulgaria cityscape" />
               <div className="absolute inset-0 bg-gradient-to-t from-black to-transparent opacity-70"></div>
               <div className="absolute bottom-0 left-0 p-8 text-white">
                 <h1 className="text-4xl font-bold mb-2" style={{ fontFamily: typography.headings.fontFamily }}>Bulgaria</h1>
